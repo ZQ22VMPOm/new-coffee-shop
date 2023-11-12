@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+.numbers{
+    color: brown;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tea-blocks{
+    display: flex;
+}
+.tea-block{
+    width: 24%;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tea-block p{
+    padding: 20px ;
+}
+.desc{
+    text-align: center;
+    padding: 150px;
+
+}
+.main-header{
+    padding: 30px;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(165, 230, 15);
+
+}
+.tea-image{
+    width: 220px;
+}
